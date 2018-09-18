@@ -1,0 +1,18 @@
+{
+  "name": "music-app-example",
+  "scripts": {
+    "browserify": "browserify ./app/browser.js -o ./app/public/bundle.js -t [ babelify --presets [ es2015 ] ]",
+    "start": "npm run browserify && node start.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "httpism": "^3.10.0",
+    "hyperdom": "^0.12.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "7.3.0",
+    "browserify": "^16.2.2",
+    "express": "^4.16.3"
+  }
+}

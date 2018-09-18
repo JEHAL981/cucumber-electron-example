@@ -1,0 +1,5 @@
+/node_modules
+/app/public/bundle.js
+.idea/
+.idea
+/acceptance-test/node_modules/
