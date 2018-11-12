@@ -3,3 +3,6 @@
 .idea/
 .idea
 /acceptance-test/node_modules/
+.vscode/
+coverage/
+.nyc_output/

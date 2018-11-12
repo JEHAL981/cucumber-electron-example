@@ -1,7 +1,7 @@
 {
   "name": "music-app-example",
   "scripts": {
-    "browserify": "browserify ./app/browser.js -o ./app/public/bundle.js -t [ babelify --presets [ es2015 ] ]",
+    "browserify": "browserify ./app/index.js -o ./app/public/bundle.js -t [ babelify --presets [ es2015 ] ]",
     "start": "npm run browserify && node start.js"
   },
   "dependencies": {
