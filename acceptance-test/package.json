@@ -4,9 +4,9 @@
   },
   "devDependencies": {
     "browser-monkey": "^2.7.2",
-    "cucumber": "^2.3.1",
+    "cucumber": "^5.0.2",
     "cucumber-electron": "^2.5.0",
-    "electron": "2.0.9",
+    "electron": "3.0.10",
     "vinehill": "^0.13.0"
   }
 }
