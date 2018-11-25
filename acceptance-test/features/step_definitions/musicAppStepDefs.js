@@ -1,10 +1,10 @@
-import cucumber from 'cucumber';
-import { Given, When, Then } from "cucumber";
-import { append } from 'hyperdom';
-import vineHill from 'vinehill';
-import { component } from 'browser-monkey';
-import Client from '../../../app/music';
-import server from '../../../app/server';
+const cucumber = require('cucumber');
+const { Given, When, Then, After, Before } = require("cucumber");
+const hyperdom = require('hyperdom');
+const vineHill = require('vinehill');
+const browserMonkey = require('browser-monkey');
+const Client = require('../../../app/music');
+const server = require('../../../app/server');
 
 
 
@@ -12,8 +12,8 @@ const MusicAppUrl = "http://localhost:5000";
 
     Given('I am using the music app', function () {
         vineHill({[MusicAppUrl]: server});
-        append(document.body, new Client(MusicAppUrl));
-        this.monkey = component(document.body)
+        hyperdom.append(document.body, new Client(MusicAppUrl));
+        this.monkey = browserMonkey.component(document.body)
     });
 
     When('I open the Music Genre Rock', function () {

@@ -3,6 +3,7 @@
     "test": "cucumber-electron"
   },
   "devDependencies": {
+    "@types/cucumber": "^4.0.4",
     "browser-monkey": "^2.7.2",
     "cucumber": "^5.0.2",
     "cucumber-electron": "^2.5.0",
