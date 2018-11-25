@@ -1,5 +1,5 @@
 const cucumber = require('cucumber');
-const { Given, When, Then, After, Before } = require("cucumber");
+const { Given, When, Then} = require("cucumber");
 const hyperdom = require('hyperdom');
 const vineHill = require('vinehill');
 const browserMonkey = require('browser-monkey');
