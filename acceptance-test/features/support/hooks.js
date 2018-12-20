@@ -5,7 +5,7 @@ After("AfterFeatures", function() {
     const options = {
         theme: 'bootstrap',
         jsonFile: './cucumber_report.json',
-        output: './cucumber_report.html',
+        output: './report/cucumber_report.html',
         reportSuiteAsScenarios: true,
         launchReport: true,
     };
