@@ -23,6 +23,3 @@ const MusicAppUrl = "http://localhost:5000";
     Then('I should see MUSE displayed', function () {
         return this.monkey.shouldFind('h1', {text: 'MUSE'});
     });
-
-
-
