@@ -1,0 +1,72 @@
+[
+  {
+    "description": "  As a music fan\n  I would like to know which genre the bands are in\n  So the bands matches my type of music genre",
+    "keyword": "Feature",
+    "name": "Music genre",
+    "line": 2,
+    "id": "music-genre",
+    "tags": [
+      {
+        "name": "@music",
+        "line": 1
+      }
+    ],
+    "uri": "features/music_genre.feature",
+    "elements": [
+      {
+        "id": "music-genre;music-genre-band",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Music genre band",
+        "tags": [
+          {
+            "name": "@music",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am using the music app",
+            "match": {
+              "location": "features/step_definitions/musicAppStepDefs.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 103000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I open the Music Genre Rock",
+            "match": {
+              "location": "features/step_definitions/musicAppStepDefs.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should see MUSE displayed",
+            "match": {
+              "location": "features/step_definitions/musicAppStepDefs.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

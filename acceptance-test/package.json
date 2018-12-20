@@ -1,12 +1,13 @@
 {
   "scripts": {
-    "test": "cucumber-electron"
+    "test": "cucumber-electron -f json:./cucumber_report.json --require=features/support --require=features/step_definitions"
   },
   "devDependencies": {
     "@types/cucumber": "^4.0.4",
     "browser-monkey": "^2.7.2",
     "cucumber": "5.0.3",
     "cucumber-electron": "2.6.0",
+    "cucumber-html-reporter": "^4.0.4",
     "electron": "3.0.11",
     "vinehill": "^0.13.0"
   }
