@@ -7,3 +7,5 @@
 coverage/
 .nyc_output/
 /acceptance-test/cucumber_report.json
+/package-lock.json
+../package-lock.json
