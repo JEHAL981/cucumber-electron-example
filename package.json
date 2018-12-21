@@ -5,6 +5,7 @@
     "start": "npm run browserify && node start.js"
   },
   "dependencies": {
+    "eslint": "^5.10.0",
     "express": "^4.16.3",
     "httpism": "^3.10.0",
     "hyperdom": "^0.12.0"
